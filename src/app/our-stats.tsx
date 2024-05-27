@@ -24,19 +24,34 @@ const STATS = [
 
 export function OurStats() {
   return (
-    <section className="container mx-auto grid gap-10 px-8 py-44 lg:grid-cols-1 lg:gap-20 xl:grid-cols-2 xl:place-items-center">
+    <section className="container mx-auto grid gap-10 px-8 py-16 lg:grid-cols-1 lg:gap-20 xl:grid-cols-2 xl:place-items-center">
       <div>
-        <Typography variant="h6" color="orange" className="mb-6 font-medium"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+        <Typography
+          variant="h6"
+          color="orange"
+          className="mb-6 font-medium"
+          placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
+        >
           Трішки статистики
         </Typography>
         <Typography
           className="text-5xl font-bold leading-tight lg:w-3/4"
-          color="blue-gray" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}        >
+          color="blue-gray"
+          placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
+        >
           Приємні бонуси фестивалю
         </Typography>
         <Typography
           variant="lead"
-          className="mt-3 w-full !text-gray-500 lg:w-9/12"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}        >
+          className="mt-3 w-full !text-gray-500 lg:w-9/12"
+          placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
+        >
           5 екстра насичених днів принесуть тобі духовне збагачення, дозволять
           глибше усвідомити сенс свого життя та покликання, а також спрямують до
           практичної реалізації власної віри в повсякденному житті

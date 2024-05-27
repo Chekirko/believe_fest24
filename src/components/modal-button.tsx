@@ -7,7 +7,7 @@ const ModalVideoSection = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section className="relative z-10 ">
+    <section className="relative z-10 py-16">
       <div className="container">
         <div
           className={`w-full mx-auto text-center`}

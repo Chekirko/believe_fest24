@@ -171,7 +171,6 @@ export function AboutEvent() {
           </div>
         </div>
       </section>
-      ;
     </section>
   );
 }
