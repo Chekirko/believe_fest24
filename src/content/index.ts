@@ -17,7 +17,7 @@ export const EVENT_CONTENT2 = [
     name: "Микола Вороняк",
     position: "декан Львівської Богословської Семінарії",
     panel: "Ранкове зібрання",
-    img: "/image/kolya.jpg",
+    img: "/image/kolya.JPG",
     music: "Молодіжна група церкви м. Стрий",
   },
   {
