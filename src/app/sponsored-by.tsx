@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Typography } from "@material-tailwind/react";
 
 export function SponsoredBy() {
+  console.log("aaa");
   return (
     <section className="py-8 px-8 lg:py-20">
       <div className="container mx-auto text-center">
