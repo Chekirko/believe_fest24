@@ -1,4 +1,3 @@
-//@ts-nocheck
 "use client";
 
 import { Typography } from "@material-tailwind/react";
@@ -17,15 +16,32 @@ export function AboutEvent() {
 
   return (
     <section className="container mx-auto flex flex-col items-center px-4 py-10">
-      <Typography variant="h6" className="text-center mb-2" color="orange">
+      <Typography
+        variant="h6"
+        className="text-center mb-2"
+        color="orange"
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}
+      >
         Про фестиваль
       </Typography>
-      <Typography variant="h3" className="text-center" color="blue-gray">
+      <Typography
+        variant="h3"
+        className="text-center"
+        color="blue-gray"
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}
+      >
         Чому я маю їхати?
       </Typography>
       <Typography
         variant="lead"
         className="mt-2 lg:max-w-4xl mb-8 w-full text-center font-normal !text-gray-500"
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}
       >
         Ми живемо в буремний час війни і глобальних потрясінь, коли хитаються
         будь-які світоглядні основи. В цьому вирі для християнина важливо не
