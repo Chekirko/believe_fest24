@@ -12,8 +12,8 @@ export const EVENT_CONTENT1 = [
 
 export const EVENT_CONTENT2 = [
   {
-    title: "Випробування віри",
-    des: "Discover how AI is revolutionizing industries, creating new possibilities, and addressing global challenges. Gain a deep understanding of the pivotal role AI plays in driving innovation, sustainability, and progress in our rapidly evolving world.",
+    title: "Реабілітація віри",
+    des: "Багато християн переживають важкі етапи своєї віри: розчарування, падіння, апатія. Що робити, шоб не поглибити кризу віри, а навпаки подолати її? Будемо детально розбиратися з цими питаннями",
     name: "Микола Вороняк",
     position: "декан Львівської Богословської Семінарії",
     panel: "Ранкове зібрання",
@@ -39,7 +39,16 @@ export const EVENT_CONTENT3 = [
     position: "Chief Executive, Spotify",
     panel: "Panel Discussion",
     img: "/image/avatar1.jpg",
-    music: "Молодіжна група церкви Нове життя м. Борислав",
+    music: "Молодіжна група церкви Воскресіння м. Борислав",
+  },
+  {
+    title: "Тема уточнюється",
+    des: "Деталі учточнюються...",
+    name: "Назар Савчук",
+    position: "просто класний промовець",
+    panel: "Вечірнє зібрання",
+    img: "/image/nazar.jpg",
+    music: "Молодіжна група церкви м. Новий Розділ",
   },
 ];
 

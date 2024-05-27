@@ -11,31 +11,31 @@ import {
 const FAQS = [
   {
     title: "1. Як я можу зареєструватись на Молодіжний кемп?",
-    desc: "You can register for the AI Conference 2023 by visiting our registration page. Follow the simple steps to complete your registration and secure your spot at the conference.",
+    desc: "Для цього потрібно звернутися до молодіжного керівника своєї церкви, він надасть тобі більш детальну інформацію та зможе зареєструвати тебе",
   },
   {
     title: "2. Хто може зареєструватись та поїхати на кемп?",
-    desc: "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it? If everything I did failed - which it doesn't, it actually succeeds - just the fact that I'm willing to fail is an inspiration. People are so scared to lose that they don't even try. Like, one thing people can't say is that I'm not trying, and I'm not trying my hardest, and I'm not trying to do the best way I know how.",
+    desc: "Реєструватись може молодь, яка належить п'ятидесятницьким церквам Дрогобицького регіону Львівської області. Але, звісно ж, є виключення. Якщо ти з іншого регіону, але дуже хочеш поїхати - звернися до організаторів і ми разом подумаємо, чи можна щось зробити",
   },
   {
     title: "3. Чи є вікові обмеження для участі в заході?",
-    desc: "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it? If everything I did failed - which it doesn't, it actually succeeds - just the fact that I'm willing to fail is an inspiration. People are so scared to lose that they don't even try. Like, one thing people can't say is that I'm not trying, and I'm not trying my hardest, and I'm not trying to do the best way I know how.",
+    desc: "Вікові обмеження є. Мінімальний вік учасників - 14 років. Максимальний - тут немає чіткої границі... Але якщо людина в своїй церкві регулярно відвідує молодіжки і є активним учасником молодіжного служіння, ми готові закрити очі на вік. Для уточнень щодо конкретно вашої ситуації звертайтесь до молодіжного керівника своєї церкви",
   },
   {
     title: "4. Скільки коштує реєстрація і що входить у її вартість?",
-    desc: "It really matters and then like it really doesn't matter. What matters is the people who are sparked by it. And the people who are like offended by it, it doesn't matter. Because it's about motivating the doers. Because I'm here to follow my dreams and inspire other people to follow their dreams, too. We're not always in the position that we want to be at. We're constantly growing. We're constantly making mistakes. We're constantly trying to express ourselves and actualize our dreams. If you have the opportunity to play this game of life you need to appreciate every moment. A lot of people don't appreciate the moment until it's passed.",
+    desc: "Вартість реєстрації становить 1500 грн. В неї входить проживання, харчування та участь у всіх заходах фестивалю. Проїзд у вартість не реєстрації не включено... Кожна церква здійснює транспортування власним коштом",
   },
   {
     title: "5. Чи можу я повернути кошти, якщо я передумав їхати?",
-    desc: "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it? If everything I did failed - which it doesn't, it actually succeeds - just the fact that I'm willing to fail is an inspiration. People are so scared to lose that they don't even try. Like, one thing people can't say is that I'm not trying, and I'm not trying my hardest, and I'm not trying to do the best way I know how.",
+    desc: "Все залежить від того, на якому етапі підготовки фесту ти передумаєш їхати... Якщо бюджет вже буде на той час укладено і кошти розподілено, то зробити це буде складно. Певну частину, однак, ймовірно, ти зможеш отримати назад",
   },
   {
     title: "6. Чи можна зареєструватись он-лайн?",
-    desc: "I always felt like I could do anything. That's the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can't do anything, you won't do anything. I was taught I could do everything. If everything I did failed - which it doesn't, it actually succeeds - just the fact that I'm willing to fail is an inspiration. People are so scared to lose that they don't even try. Like, one thing people can't say is that I'm not trying, and I'm not trying my hardest, and I'm not trying to do the best way I know how.",
+    desc: "На жаль, така опція не передбачена... Реєстрація відбувається тільки безпосередньо у вашого молодіжного керівника",
   },
   {
     title: "7. Чи є певний дрес-код для зібрань?",
-    desc: "There's nothing I really wanted to do in life that I wasn't able to get good at. That's my skill. I'm not really specifically talented at anything except for the ability to learn. That's what I do. That's what I'm here for. Don't be afraid to be wrong because you can't learn anything from a compliment. I always felt like I could do anything. That's the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can't do anything, you won't do anything. I was taught I could do everything.",
+    desc: "Все повинно бути пристойно, як личить християнам. Ви ж самі все знаєте... що тут вам казати? ))",
   },
 ];
 

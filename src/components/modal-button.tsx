@@ -17,7 +17,8 @@ const ModalVideoSection = () => {
             Згадай, як це було!
           </h2>
           <p className="text-base !leading-relaxed text-body-color md:text-lg">
-            плглаопвг вгпшвщпов пвщгповщшпощ щшвгпшуош шгепшуок ушгепшуо ш
+            В 2023 році відбувся молодіжний фестиваль &quot;Покликані
+            служити&quot;
           </p>
         </div>
         <div className="-mx-4 flex flex-wrap">
