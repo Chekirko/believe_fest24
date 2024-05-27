@@ -1,4 +1,3 @@
-//@ts-nocheck
 
 import Image from "next/image";
 import {
@@ -31,13 +30,11 @@ export function EventContentCard({
     <Card
       color="transparent"
       shadow={false}
-      className="lg:!flex-row mb-10 lg:items-end"
-    >
+      className="lg:!flex-row mb-10 lg:items-end" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}    >
       <CardHeader
         floated={false}
         shadow={false}
-        className="h-[32rem] max-w-[28rem] shrink-0"
-      >
+        className="h-[32rem] max-w-[28rem] shrink-0"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}      >
         <Image
           width={768}
           height={768}
@@ -46,14 +43,14 @@ export function EventContentCard({
           className="h-full w-full object-cover"
         />
       </CardHeader>
-      <CardBody className="col-span-full lg:col-span-3">
-        <Typography variant="h6" color="blue-gray" className="mb-4">
+      <CardBody className="col-span-full lg:col-span-3"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+        <Typography variant="h6" color="blue-gray" className="mb-4"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
           {panel}
         </Typography>
-        <Typography variant="h2" color="blue-gray" className="mb-4 font-medium">
+        <Typography variant="h2" color="blue-gray" className="mb-4 font-medium"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
           {title}
         </Typography>
-        <Typography className="mb-12 md:w-8/12 font-medium !text-gray-500">
+        <Typography className="mb-12 md:w-8/12 font-medium !text-gray-500"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
           {des}
         </Typography>
         <div className="flex items-center gap-4 mb-6">
@@ -70,10 +67,10 @@ export function EventContentCard({
             <circle cx="12" cy="7" r="4"></circle>
           </svg>
           <div>
-            <Typography variant="h6" color="blue-gray" className="mb-0.5">
+            <Typography variant="h6" color="blue-gray" className="mb-0.5"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
               {name}
             </Typography>
-            <Typography variant="small" className="font-normal !text-gray-500">
+            <Typography variant="small" className="font-normal !text-gray-500"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
               {position}
             </Typography>
           </div>
@@ -91,7 +88,7 @@ export function EventContentCard({
             <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
           </svg>
           <div>
-            <Typography variant="h6" className="font-normal !text-gray-500">
+            <Typography variant="h6" className="font-normal !text-gray-500"  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
               <div className="text-black font-semibold underline">
                 Прославлення:{" "}
               </div>

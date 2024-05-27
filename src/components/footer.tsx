@@ -1,4 +1,3 @@
-//@ts-nocheck
 import { Typography, Button, IconButton } from "@material-tailwind/react";
 import Link from "next/link";
 
@@ -16,6 +15,9 @@ export function Footer() {
             target="_blank"
             variant="h6"
             className="text-black"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
           >
             Церква Нове життя м. Борислав
           </Typography>
@@ -39,7 +41,14 @@ export function Footer() {
               href={"https://www.facebook.com/groups/2409312272430993"}
               target="blank"
             >
-              <IconButton size="sm" color="gray" variant="text">
+              <IconButton
+                size="sm"
+                color="gray"
+                variant="text"
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+              >
                 <i className="fa-brands fa-facebook text-lg" />
               </IconButton>
             </Link>
@@ -47,7 +56,14 @@ export function Footer() {
               href={"https://www.youtube.com/@zerkva_nove_jitya_borislav"}
               target="blank"
             >
-              <IconButton size="sm" color="gray" variant="text">
+              <IconButton
+                size="sm"
+                color="gray"
+                variant="text"
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+              >
                 <i className="fa-brands fa-youtube text-lg" />
               </IconButton>
             </Link>
@@ -55,7 +71,14 @@ export function Footer() {
               href={"https://www.instagram.com/youth.new.life/"}
               target="blank"
             >
-              <IconButton size="sm" color="gray" variant="text">
+              <IconButton
+                size="sm"
+                color="gray"
+                variant="text"
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+              >
                 <i className="fa-brands fa-instagram text-lg" />
               </IconButton>
             </Link>
@@ -64,6 +87,9 @@ export function Footer() {
         <Typography
           color="blue-gray"
           className="text-center mt-12 font-normal !text-gray-700"
+          placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
         >
           &copy; {CURRENT_YEAR} Made with Love by{" "}
           <a href="https://www.instagram.com/chekirko/" target="_blank">

@@ -1,4 +1,4 @@
-// @ts-nocheck
+
 "use client";
 
 import { useState } from "react";
@@ -20,40 +20,35 @@ export function EventContent() {
     <section className="py-8 px-8 lg:py-20">
       <Tabs value="Day1" className="mb-8">
         <div className="w-full flex mb-8 flex-col items-center">
-          <TabsHeader className="h-12 w-72 md:w-96 bg-gray-400">
+          <TabsHeader className="h-12 w-72 md:w-96 bg-gray-400" placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
             <Tab
               value="Day1"
               className="font-medium"
-              onClick={() => setValue("Day1")}
-            >
+              onClick={() => setValue("Day1")}  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}            >
               День 1
             </Tab>
             <Tab
               value="Day2"
               className="font-medium"
-              onClick={() => setValue("Day2")}
-            >
+              onClick={() => setValue("Day2")} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}            >
               День 2
             </Tab>
             <Tab
               value="Day3"
               className="font-medium"
-              onClick={() => setValue("Day3")}
-            >
+              onClick={() => setValue("Day3")}  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}            >
               День 3
             </Tab>
             <Tab
               value="Day4"
               className="font-medium"
-              onClick={() => setValue("Day4")}
-            >
+              onClick={() => setValue("Day4")}  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}            >
               День 4
             </Tab>
             <Tab
               value="Day5"
               className="font-medium"
-              onClick={() => setValue("Day5")}
-            >
+              onClick={() => setValue("Day5")}  placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}            >
               День 5
             </Tab>
           </TabsHeader>

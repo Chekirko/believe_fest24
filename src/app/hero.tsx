@@ -1,4 +1,3 @@
-//@ts-nocheck
 "use client";
 
 import { IconButton, Button, Typography } from "@material-tailwind/react";
@@ -11,10 +10,24 @@ function Hero() {
       <div className="absolute inset-0 h-full w-full bg-gray-900/60" />
       <div className="grid min-h-screen px-8">
         <div className="container relative z-10 my-auto mx-auto grid place-items-center text-center">
-          <Typography variant="h3" color="white" className="mb-2">
+          <Typography
+            variant="h3"
+            color="white"
+            className="mb-2"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             29 липня - 3 серпня
           </Typography>
-          <Typography variant="h1" color="white" className="lg:max-w-3xl">
+          <Typography
+            variant="h1"
+            color="white"
+            className="lg:max-w-3xl"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             Молодіжний кемп 2024: <br />
             &quot;Я вірю!&quot;
           </Typography>
@@ -22,6 +35,9 @@ function Hero() {
             variant="lead"
             color="white"
             className="mt-1 mb-12 w-full md:max-w-full lg:max-w-2xl"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
           >
             Встигни приєднатися до потужної християнської події цього року -
             Молодіжного кемпу &quot;Я вірю!&quot;

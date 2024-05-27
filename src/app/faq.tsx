@@ -1,4 +1,3 @@
-//@ts-nocheck
 "use client";
 
 import React from "react";
@@ -48,12 +47,22 @@ export function Faq() {
     <section className="py-8 px-8 lg:py-20">
       <div className="container mx-auto">
         <div className="text-center">
-          <Typography variant="h1" color="blue-gray" className="mb-4">
+          <Typography
+            variant="h1"
+            color="blue-gray"
+            className="mb-4"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             Є питання? Спробуй знайти відповіді на них трохи нижче!
           </Typography>
           <Typography
             variant="lead"
             className="mx-auto mb-24 lg:w-3/5 !text-gray-500"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
           >
             Вітаємо в розділі найпоширеніших запитань Молодіжного кемпу &quot;Я
             вірю!&quot; Ми раді відповісти на всі твої запитання і надати тобі
@@ -68,14 +77,25 @@ export function Faq() {
               key={key}
               open={open === key + 1}
               onClick={() => handleOpen(key + 1)}
+              placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
             >
-              <AccordionHeader className="text-left text-gray-900">
+              <AccordionHeader
+                className="text-left text-gray-900"
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+              >
                 {title}
               </AccordionHeader>
               <AccordionBody>
                 <Typography
                   color="blue-gray"
                   className="font-normal text-gray-500"
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
                 >
                   {desc}
                 </Typography>
