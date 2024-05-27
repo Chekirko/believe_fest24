@@ -15,7 +15,7 @@ function Hero() {
           </Typography>
           <Typography variant="h1" color="white" className="lg:max-w-3xl">
             Молодіжний кемп 2024: <br />
-            "Я вірю!"
+            &quot;Я вірю!&quot;
           </Typography>
           <Typography
             variant="lead"
@@ -23,7 +23,7 @@ function Hero() {
             className="mt-1 mb-12 w-full md:max-w-full lg:max-w-2xl"
           >
             Встигни приєднатися до потужної християнської події цього року -
-            Молодіжного кемпу "Я вірю!"
+            Молодіжного кемпу &quot;Я вірю!&quot;
           </Typography>
           <div className="flex items-center gap-4 w-full relative">
             {/* <ModalButton></ModalButton> */}
