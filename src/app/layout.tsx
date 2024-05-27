@@ -10,9 +10,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "NextJS Tailwind Event Landing Page",
+  title: "Промо сторінка молодіжного фестивалю Я вірю!",
   description:
-    "Introducing Tailwind Event Landing Page, a dynamic and visually appealing landing page template designed using Tailwind CSS and Material Tailwind.",
+    "Презентуємо неймовірно потужний молодіжний захід для молоді на мальовничому березі озера Світязь. Встигни зареєструватись, щоб не пропустити!",
 };
 
 export default function RootLayout({
