@@ -22,7 +22,7 @@ export const EVENT_CONTENT2 = [
   },
   {
     title: "Духовний вік християнина",
-    des: "Discover how AI is revolutionizing industries, creating new possibilities, and addressing global challenges. Gain a deep understanding of the pivotal role AI plays in driving innovation, sustainability, and progress in our rapidly evolving world.",
+    des: "Деталі уточнюються...",
     name: "Маркіян Клепач",
     position: "екс-керівник молодіжного служіння Львівської області",
     panel: "Вечірнє зібрання",
@@ -33,12 +33,12 @@ export const EVENT_CONTENT2 = [
 
 export const EVENT_CONTENT3 = [
   {
-    title: "AI's Role in Shaping the Future",
-    des: "Discover how AI is revolutionizing industries, creating new possibilities, and addressing global challenges. Gain a deep understanding of the pivotal role AI plays in driving innovation, sustainability, and progress in our rapidly evolving world.",
-    name: "Marcell Glock",
-    position: "Chief Executive, Spotify",
-    panel: "Panel Discussion",
-    img: "/image/avatar1.jpg",
+    title: "Тема уточнюється...",
+    des: "Деталі уточнюються...",
+    name: "Промовець уточнюється...",
+    position: "Промовець уточнюється...",
+    panel: "Ранкове зібрання",
+    img: "/image/avatar2.jpg",
     music: "Молодіжна група церкви Воскресіння м. Борислав",
   },
   {
@@ -55,7 +55,7 @@ export const EVENT_CONTENT3 = [
 export const EVENT_CONTENT4 = [
   {
     title: "Види віри з біблійної позиції",
-    des: "Explore the basic principles, algorithms, and applications of Machine Learning. Through hands-on exercises and practical examples, you'll develop a solid understanding of how Machine Learning powers AI-driven solutions.",
+    des: "Деталі уточнюються...",
     name: "Василь Попудник",
     position: "пастор-вчитель",
     panel: "Ранкове зібрання",
@@ -64,7 +64,7 @@ export const EVENT_CONTENT4 = [
   },
   {
     title: "Сумісність віри і критичного мислення",
-    des: "Discover how AI is revolutionizing industries, creating new possibilities, and addressing global challenges. Gain a deep understanding of the pivotal role AI plays in driving innovation, sustainability, and progress in our rapidly evolving world.",
+    des: "Деталі уточнюються...",
     name: "Василь Попудник",
     position: "пастор-вчитель",
     panel: "Вечірнє зібрання",
@@ -75,12 +75,21 @@ export const EVENT_CONTENT4 = [
 
 export const EVENT_CONTENT5 = [
   {
-    title: "AI in Healthcare: Revolutionizing Patient Care",
-    des: "This session is a must-attend for healthcare professionals, AI enthusiasts, and anyone interested in the intersection of technology and well-being. Join us as we discuss how AI is bringing about positive changes in healthcare.",
-    name: "Marcell Glock",
-    position: "Chief Executive, Spotify",
-    panel: "Workshop",
-    img: "/image/avatar3.jpg",
-    music: "Молодіжна група церкви Нове життя м. Борислав",
+    title: "Віра і протистояння поколінь",
+    des: "Дискусія у форматі питання-відповіді про актуальні виклики для церкви і віри в сьогоденні, а також про зміну в сприйнятті віри новим поколінням та старшим. Почесному єпископу можна буде поставити запитання і почути на них вичерпні відповіді",
+    name: "Михайло Паночко",
+    position: "почесний єпископ УЦХВЄ",
+    panel: "Панельна дискусія",
+    img: "/image/panochko.webp",
+    music: "Гурт Made in Sky",
+  },
+  {
+    title: "Тема уточнюється",
+    des: "Деталі уточнюються...",
+    name: "Михайло Паночко",
+    position: "почесний єпископ УЦХВЄ",
+    panel: "Закриття фестивалю",
+    img: "/image/panochko.webp",
+    music: "Гурт Покликані",
   },
 ];
