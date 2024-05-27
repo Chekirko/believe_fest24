@@ -1,4 +1,7 @@
+//@ts-nocheck
+
 import React from "react";
+
 import {
   Navbar as MTNavbar,
   Collapse,

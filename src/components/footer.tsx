@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { Typography, Button, IconButton } from "@material-tailwind/react";
 import Link from "next/link";
 

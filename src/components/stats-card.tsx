@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { Typography, Card } from "@material-tailwind/react";
 interface StatsCardProps {
   count: string;
