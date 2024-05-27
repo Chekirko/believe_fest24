@@ -8,6 +8,7 @@ import AboutEvent from "./about-event";
 import OurStats from "./our-stats";
 import EventContent from "./event-content";
 import Faq from "./faq";
+import ModalVideoSection from "@/components/modal-button";
 
 export default function Portfolio() {
   return (
@@ -15,6 +16,7 @@ export default function Portfolio() {
       <Navbar />
       <Hero />
       <SponsoredBy />
+      <ModalVideoSection />
       <AboutEvent />
       <OurStats />
       <EventContent />

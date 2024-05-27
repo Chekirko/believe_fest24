@@ -3,33 +3,41 @@
 import Image from "next/image";
 import { Typography } from "@material-tailwind/react";
 
-const SPONSORS = [
-  "coinbase",
-  "spotify",
-  "pinterest",
-  "google",
-  "amazon",
-  "netflix",
-];
-
 export function SponsoredBy() {
   return (
     <section className="py-8 px-8 lg:py-20">
       <div className="container mx-auto text-center">
         <Typography variant="h6" color="blue-gray" className="mb-8">
-          SPONSORED BY
+          ЗА ПІДТРИМКИ
         </Typography>
         <div className="flex flex-wrap items-center justify-center gap-6">
-          {SPONSORS.map((logo, key) => (
+          <div className="w-60">
             <Image
-              width={256}
-              height={256}
-              key={key}
-              src={`/logos/logo-${logo}.svg`}
-              alt={logo}
-              className="w-40"
+              width={1600}
+              height={1600}
+              src={"/logos/logo1.jpg"}
+              alt="logo"
+              className="w-full"
             />
-          ))}
+          </div>
+          <div className="w-60">
+            <Image
+              width={1600}
+              height={1600}
+              src={"/logos/logo.png"}
+              alt="logo"
+              className="w-full bg-black p-4 rounded-lg"
+            />
+          </div>
+          <div className="w-40 ml-6">
+            <Image
+              width={1600}
+              height={1600}
+              src={"/logos/logo2.png"}
+              alt="logo"
+              className="w-full"
+            />
+          </div>
         </div>
       </div>
     </section>

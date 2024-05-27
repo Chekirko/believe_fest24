@@ -14,6 +14,7 @@ import {
   XMarkIcon,
   Bars3Icon,
 } from "@heroicons/react/24/solid";
+import Image from "next/image";
 
 interface NavItemProps {
   children: React.ReactNode;
@@ -88,12 +89,21 @@ export function Navbar() {
       className="fixed top-0 z-50 border-0"
     >
       <div className="container mx-auto flex items-center justify-between">
-        <Typography
+        {/* <Typography
           color={isScrolling ? "blue-gray" : "white"}
           className="text-lg font-bold"
         >
-          Material Tailwind
-        </Typography>
+          Я вірю!
+        </Typography> */}
+        <div className="w-30 h-30 rounded-lg">
+          <Image
+            src="/image/log2.png"
+            alt="logo"
+            width={100}
+            height={100}
+            className="w-full object-contain rounded-lg"
+          ></Image>
+        </div>
         <ul
           className={`ml-10 hidden items-center gap-6 lg:flex ${
             isScrolling ? "text-gray-900" : "text-white"

@@ -5,20 +5,20 @@ import StatsCard from "@/components/stats-card";
 
 const STATS = [
   {
-    count: "1,500+",
-    title: "Participants",
+    count: "150+",
+    title: "Учасників",
   },
   {
-    count: "50",
-    title: "Speakers",
+    count: "10+",
+    title: "Промовців",
   },
   {
     count: "20+",
-    title: "Workshops",
+    title: "Гуртів прославлення",
   },
   {
-    count: "3",
-    title: "Days",
+    count: "5",
+    title: "Повниих днів",
   },
 ];
 
@@ -27,7 +27,7 @@ export function OurStats() {
     <section className="container mx-auto grid gap-10 px-8 py-44 lg:grid-cols-1 lg:gap-20 xl:grid-cols-2 xl:place-items-center">
       <div>
         <Typography variant="h6" color="orange" className="mb-6 font-medium">
-          Our Stats
+          Трішки цифрів
         </Typography>
         <Typography
           className="text-5xl font-bold leading-tight lg:w-3/4"
